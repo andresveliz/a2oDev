@@ -28,3 +28,4 @@ Route::post('queensAttack', function (App\Custom\Exercises $exercises, Request $
 Route::post('stringValue', function (App\Custom\Exercises $exercises, Request $request){
     return $exercises->stringValue($request);
 });
+//
